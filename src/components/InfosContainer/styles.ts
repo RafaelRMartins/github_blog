@@ -1,17 +1,17 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const CardInfos = styled.section`
-position: relative;
-margin-top: -100px;
-width: 100%;
-height: 212px;
-border-radius: 10px;
-background: ${(props) => props.theme['base-profile']};
-box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.20);
-display: flex;
-padding: 32px;
+  position: relative;
+  margin-top: -100px;
+  width: 100%;
+  height: 212px;
+  border-radius: 10px;
+  background: ${(props) => props.theme['base-profile']};
+  box-shadow: 0px 2px 28px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  padding: 32px;
 
-  img{
+  img {
     width: 148px;
     height: 148px;
     border-radius: 8px;
@@ -33,24 +33,24 @@ export const GitName = styled.div`
   align-items: flex-start;
   margin-top: 8px;
 
-  h2{
+  h2 {
     font-size: 1.5rem;
     font-weight: 700;
     color: ${(props) => props.theme['base-title']};
   }
 
-  a{
+  a {
     display: flex;
     align-items: center;
     gap: 8px;
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: ${(props) => props.theme['blue']};
+    color: ${(props) => props.theme.blue};
     text-decoration: none;
-    
-    &:hover{
-      border-bottom: 2px solid ${(props) => props.theme['blue']};
+
+    &:hover {
+      border-bottom: 2px solid ${(props) => props.theme.blue};
     }
   }
 `

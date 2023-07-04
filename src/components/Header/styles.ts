@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
   position: relative;
@@ -8,16 +8,16 @@ export const HeaderContainer = styled.header`
   height: 296px;
   overflow: hidden;
 
-  .RightAlign{
-  position: absolute;
-  top: 30px;
-  right: 0;
+  .RightAlign {
+    position: absolute;
+    top: 30px;
+    right: 0;
   }
 
-  .LeftAlign{
-  position: absolute;
-  top: 70px;
-  left: 0;
+  .LeftAlign {
+    position: absolute;
+    top: 70px;
+    left: 0;
   }
 `
 
@@ -26,7 +26,7 @@ export const RectangleDecoration = styled.div`
   bottom: 9px;
   width: 891px;
   height: 52px;
-  background: #14589C;
+  background: #14589c;
   filter: blur(106px);
 `
 
@@ -36,7 +36,7 @@ export const BackgroundDecoration = styled.div`
   right: 0;
   width: 155px;
   height: 155px;
-  background-color: #14589C;
+  background-color: #14589c;
   transform: rotate(15deg);
   filter: blur(184px);
 `
@@ -47,7 +47,7 @@ export const RoundedBackgroundDecoration = styled.div`
   left: -117px;
   width: 236px;
   height: 236px;
-  background: #14589C;
+  background: #14589c;
   border-radius: 236px;
   filter: blur(200px);
 `

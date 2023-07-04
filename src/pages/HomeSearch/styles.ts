@@ -1,8 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const HomeContainer = styled.main`
-
-`
+export const HomeContainer = styled.main``
 
 export const MainContainer = styled.div`
   max-width: 864px;
@@ -10,27 +8,27 @@ export const MainContainer = styled.div`
 `
 
 export const SearchContainer = styled.div`
-margin-top: 72px;
-margin-bottom: 48px;
+  margin-top: 72px;
+  margin-bottom: 48px;
 
-  .searchHeader{
+  .searchHeader {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    p{
+    p {
       font-size: 1.125rem;
       font-weight: 700;
       color: ${(props) => props.theme['base-subtitle']};
     }
 
-    span{
+    span {
       font-size: 0.875rem;
       color: ${(props) => props.theme['base-span']};
     }
   }
 
-  input{
+  input {
     width: 100%;
     padding: 12px 16px;
     margin-top: 12px;
@@ -39,7 +37,7 @@ margin-bottom: 48px;
     background: ${(props) => props.theme['base-input']};
     color: ${(props) => props.theme['base-text']};
 
-    &::placeholder{
+    &::placeholder {
       color: ${(props) => props.theme['base-label']};
     }
   }

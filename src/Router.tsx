@@ -5,8 +5,8 @@ import { Details } from './pages/Details'
 export function Router() {
   return (
     <Routes>
-        <Route path="/" element={<HomeSearch />} />
-        <Route path="/details/:id" element={<Details />} />
+      <Route path="/" element={<HomeSearch />} />
+      <Route path="/details/:id" element={<Details />} />
     </Routes>
   )
 }
